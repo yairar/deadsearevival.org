@@ -396,13 +396,13 @@ h1,h2,h3,h4,h5,h6{
     font-size: 2em;
     letter-spacing: 2px;
     font-weight: 400;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 	font-family: 'Lato', sans-serif;
 }
 .slider-info h6 {
     color: white;
     font-size: 1.8em;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     width: 48%;
     background: #3dc9b3;
     font-family: 'Lato', sans-serif;
@@ -412,7 +412,7 @@ h1,h2,h3,h4,h5,h6{
 .slider-info h3 a {
     color: white;
        font-size: 2em;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: 'Lato', sans-serif;
     font-weight: 900;
 	margin-bottom:0.3em;
@@ -1312,11 +1312,12 @@ a.face_one i {
 }
 .eve-sub1 h4  {
     margin-top: 2em;
-    font-size: 1.3em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    font-size: 1em;
+    /*text-transform: uppercase;*/
+    /*letter-spacing: 1px;*/
     font-weight: bold;
-	color: #3dc9b3;
+	color: #777;
+        text-align: center;
 }
 .eve-sub1 h4 a{
 color: #3dc9b3;
@@ -1340,6 +1341,7 @@ color: #3dc9b3;
     font-weight: 400;
     line-height: 1.9em;
     letter-spacing: 1px;
+        text-align: center;
 }
 .eve-sub1 p span {
     font-weight: bold;
