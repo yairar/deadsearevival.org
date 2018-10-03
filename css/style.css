@@ -1069,6 +1069,7 @@ figure.effect-jazz a {
 /*-- team --*/
 .team_gds {
     margin-top: 60px;
+    float: left;
 }
 .team {
 	background: #eee;
@@ -2096,7 +2097,7 @@ figure.effect-jazz p {
 }
 .team_gd1.wow.zoomIn {
     float: left;
-    width: 25%;
+    width: 33%;
 }
 a.face_one i {
     font-size: 1.2em;
