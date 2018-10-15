@@ -59,6 +59,16 @@ h1,h2,h3,h4,h5,h6{
     min-height: 776px;
 	position:relative;
 }
+.header2{
+    background: url(../images/bg1.jpg) no-repeat left;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    min-height: 500px;
+	position:relative;
+}
 /*-- top-nav --*/
 /* Underline From Center */
 .hvr-underline-from-center {
@@ -393,7 +403,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .slider-info p {
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
     letter-spacing: 2px;
     font-weight: 400;
     /*text-transform: uppercase;*/
@@ -1613,7 +1623,7 @@ h4.text {
     letter-spacing: 1px;
 }
 .slider-info p {
-    font-size: 1.8em;
+    font-size: 1em;
 }
 .slider-info h3 a {
     font-size: 1.2em;
@@ -1659,7 +1669,7 @@ figure.effect-jazz h4 {
     font-size: 1.2em;
 }
 .slider-info p {
-    font-size: 1.8em;
+    font-size: 1em;
 }
 .slider-info {
     margin: 23% auto 0;
@@ -2681,7 +2691,7 @@ a.face_one i {
     width: 50%;
 }
 .slider-info p {
-    font-size: 1.25em;
+    font-size: 0.5em;
 }
 .slider-info h3 a {
     font-size: 0.9em;
