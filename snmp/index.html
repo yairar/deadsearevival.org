@@ -15,6 +15,7 @@
   <link href="css/styles.css" rel="stylesheet">
   <link href="css/queries.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
+<!-- Swipebox-CSS -->	<link rel="stylesheet" href="css/swipebox.css" type="text/css" media="all">  
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,7 +41,7 @@
     </section>
   </header>
 
-  <section class="team text-center section-padding" id="team">
+  <section class="team text-center" id="team">
     <div class="container">
       <!--div class="row">
         <div class="col-md-12">
@@ -93,6 +94,9 @@ These phenomena were discovered scientifically only six years ago and our docume
         <div id="teamSlider">
           <ul class="slides">
             <li>
+              <div class="col-md-12 wp1">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/h9fM8n3DXZg?rel=0" frameborder="0" allowfullscreen></iframe>
+              </div>              
               <div class="col-md-8 col-md-offset-2">
                 <p>
                 We have a golden opportunity to document these salt chimneys emerging from the sea as a result of the decline in the sea level. Twice a month we will fly a professional drone (along with a 360-degree 5.7K quality camera) in a predetermined orbit around the “forest” of salt chimneys. The findings will be sent to the laboratories of the Department of Geography at the University of California, which will then process the documentation in order to create an accurate timeline and receive scientific data on the salt chimneys and the decline.
@@ -168,17 +172,30 @@ These phenomena were discovered scientifically only six years ago and our docume
         <div id="portfolioSlider">
           <ul class="slides">
             <li>
-              <div class="col-md-3 col-md-offset-2 wp4">
+              <div class="col-md-4 wp4">
                 <div class="overlay-effect effects clearfix">
                   <div class="img">
-                    <img src="img/portfolio-04.jpg" alt="Portfolio Item">
+                    <a href="img/letter1.jpg" class="swipebox">
+                      <img src="img/portfolio-03.jpg">
+                    </a>
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 col-md-offset-2 wp4 delay-05s">
+              <div class="col-md-4 wp4 delay-05s">
                 <div class="overlay-effect effects clearfix">
                   <div class="img">
-                    <img src="img/portfolio-05.jpg" alt="Portfolio Item">
+                    <a href="img/letter2.jpg" class="swipebox">
+                      <img src="img/portfolio-04.jpg">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 wp4 delay-1s">
+                <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                    <a href="img/ng.jpg" class="swipebox">
+                      <img src="img/portfolio-05.jpg">
+                    </a>
                   </div>
                 </div>
               </div>
@@ -223,9 +240,9 @@ These phenomena were discovered scientifically only six years ago and our docume
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
-          <h3>
+          <p>
           We would appreciate your sponsorship/contributions and we would be glad to inform you regarding the progress of the project. In April 2019 we will  have  three years of documentation of the Dead Sea, and will be able to present an interactive perspective of what is happening on the ground.
-          </h3>
+          </p>
         </div>
       </div>
       <div class="row contact-details">
@@ -273,6 +290,7 @@ These phenomena were discovered scientifically only six years ago and our docume
       </div>
     </div>
   </footer>
+
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -281,5 +299,15 @@ These phenomena were discovered scientifically only six years ago and our docume
   <script src="js/scripts.js"></script>
   <script src="js/jquery.flexslider.js"></script>
   <script src="js/modernizr.js"></script>
+
+  <!-- Swipe-Box-JavaScript -->
+  <script src="../art/js/jquery.swipebox.min.js"></script> 
+    <script type="text/javascript">
+      jQuery(function($) {
+        $(".swipebox").swipebox();
+      });
+  </script>
+  <!-- //Swipe-Box-JavaScript -->
+
 </body>
 </html>
