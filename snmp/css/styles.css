@@ -325,3 +325,25 @@ Waypoints
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
 .wp3 { background: url('../img/iphone-bg.jpg') no-repeat center center; height: 100%; }
+
+/* Home button */
+section.cd-section {
+	position: fixed;
+	z-index: 99999;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+.cd-bouncy-nav-trigger {
+	background: #FFF;
+	color: #000;
+	padding: 10px 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 10em;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 0 10px #171718;
+}
+.no-touch .cd-bouncy-nav-trigger:hover {
+	background: #009688;
+	color: #FFF;
+}
