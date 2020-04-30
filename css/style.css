@@ -249,6 +249,23 @@ h1,h2,h3,h4,h5,h6{
 .event h3 span {
     color: #3dc9b3;
 }
+.vmuseum{
+    background: url(../images/vmuseum.jpg) no-repeat left;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    max-height: 600px;
+	position:relative;
+}
+.vmuseum .container p {
+    color: #000;
+    font-size: 1.35em;
+}
+.vmuseum .container h3 span {
+    color: #3dc9b3;
+}
 .callbacks {
 	position: relative;
 	list-style: none;
