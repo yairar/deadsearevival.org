@@ -50,6 +50,14 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Rubik', sans-serif;
 }
 
+button {
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	background-color: #d9edf7;
+	border-color: #31708f;
+	border-radius: 8px;
+}
+
 p {
 	margin: 0;
 	font-family: 'Rubik', sans-serif;

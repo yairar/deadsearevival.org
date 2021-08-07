@@ -189,6 +189,15 @@ h2 a:hover {color: #3dc9ff; }
 .wrapper { height: 650px; }
 .nopadding { padding: 0; }
 .inner { padding-top: 0px; }
+
+button {
+	text-align: center;
+	background-color: #55cfbe;
+	border-color: #dff0d8;
+	border-radius: 8px;
+	padding: 3px;
+	margin: 3px;
+}
 /* ==========================================================================
 Navigation
 ========================================================================== */
